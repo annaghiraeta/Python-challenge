@@ -53,6 +53,3 @@ with open(output_path,"w") as csvfile:
     csvwriter.writerow(['Greatest Increase in Profit:'+str(greatest_increase[0])+'($'+str(greatest_increase[1])+')'])
     csvwriter.writerow(['Greatest Decrease in Profit:'+str(greatest_decrease[0])+'($'+str(greatest_decrease[1])+')'])
 
-
-
-

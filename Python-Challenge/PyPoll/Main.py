@@ -6,8 +6,6 @@ dataArray=[]
 with open(Pypoll_csv) as csvfile:
     reader=  csv.reader(csvfile, delimiter=',') 
     header= next(reader)
-    firstrow=next(reader)
-    line_count=0
     votes=[]
     candidates=[]
     for row in reader:
